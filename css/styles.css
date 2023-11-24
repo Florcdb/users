@@ -8,6 +8,50 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  background-color:mistyrose;
+  margin: 30px;
 }
 
 
+img{
+  width: 70px;
+  height: 70px;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#listaUsuarios{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 0px;
+  column-gap: 40px;
+  font-family: Arial, sans-serif;
+}
+
+#li{
+  background-color:whitesmoke
+
+}
+
+.info-container {
+  padding: 5px;
+}
+
+.company {
+  background-color: #ffcccb;
+  color: #333;
+  border-radius: 5px;
+}
+
+.address {
+  background-color: #add8e6;
+  color: #333;
+  border-radius: 5px;
+}
